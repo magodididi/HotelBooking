@@ -31,22 +31,27 @@
 
 ---
 
-## 📸 Application Mockups
+## 📸 Application Images
 
 ### 🔐 Login Window
-![Login](https://images/Screenshot%25202025-10-08%2520at%252021.20.28.png)
+![Login](/images/login.png)
 
 ### 🔐 Registration Window
-![Registration](https://images/Screenshot%25202025-10-08%2520at%252021.20.33.png)
+![Registration](/images/registration.png)
 
 ### Main Page
-![Main Page](https://images/Screenshot%25202025-10-08%2520at%252021.24.17.png)
+![Main Page](/images/main_page.png)
 
 ### ⚙️ Admin Panel for Room Management
-![Admin Room Management](https://images/Screenshot%25202025-10-08%2520at%252021.27.28.png)
+![Admin Room Management](/images/hotels.png)
+![Admin Room Management1](/images/adminpanel.png)
+![Admin Room Management2](/images/add_room.png)
 
-### ⚙️ Admin Panel for User Management
-![Admin User Management](https://images/Screenshot%25202025-10-08%2520at%252021.15.27.png)
+### ⚙️ Profil Panel for User
+![Admin Room Management](/images/profilpage.png)
+
+### ⚙️ Help page
+![Admin User Management](/images/help.png)
 
 ---
 
@@ -66,25 +71,6 @@
 - **Build Tool:** npm
 - **Development Server:** React Scripts
 
----
-
-## 📁 Project Structure
-
-HOTEL-v2-FINAL-/
-├── backend/ # Spring Boot backend
-│ ├── src/ # Java source code
-│ ├── pom.xml # Maven configuration
-│ └── HELP.md # Backend documentation
-├── frontend/ # React frontend
-│ ├── src/ # React source code
-│ ├── public/ # Static files
-│ └── package.json # npm dependencies
-├── docs/ # Project documentation
-├── images/ # Application screenshots
-└── README.md # This file
-
-
----
 
 ## ⚙️ Installation and Launch
 
@@ -96,7 +82,7 @@ HOTEL-v2-FINAL-/
 - Docker (optional, for containerization)
 
 ### Backend Setup
-```bash
+
 # Navigate to backend directory
 cd backend
 
@@ -107,7 +93,7 @@ mvn clean install
 mvn spring-boot:run
 
 ## ⚙️ Frontend Setup
-```bash
+
 # Navigate to frontend directory
 cd frontend
 
