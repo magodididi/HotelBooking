@@ -5,7 +5,7 @@ This document describes the key entities and their relationships within the **Ho
 
 ## Class Diagram Schema
 
-![Class Diagram](./docs/schema/hotelbookingv2_uml.png)
+![Class Diagram](./docs/schema/uml_diagramma_class.png)
 
 ## Class Diagram Description
 The core domain of **HotelBookingV2** revolves around users, accounts, hotels, rooms, bookings, and preferences. The main entities are:
